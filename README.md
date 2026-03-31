@@ -29,19 +29,33 @@ They don't tell you *why* it's red, whether neighbours are at risk, what happens
 ##  Architecture
 
 Data Sources  (JHU · OWID · Google Mobility)
+
         ↓
+        
 ingest.py        — reshape, ISO3 standardise, merge
+
         ↓
+        
 preprocess.py    — incident counts, smoothing, CFR, growth rate
+
         ↓
+        
 outbreak.py      — Rt, structural breaks, wave detection, early warning
+
         ↓
+        
 spatial.py       — 
+
         ↓
+        
 forecast.py      — ARIMA (endemic) / Prophet (acute) · 14-day forecast
+
         ↓
+        
 risk.py          — 6-dim risk score · XGBoost · Isolation Forest · SHAP
+
         ↓
+        
 app.py           —  Streamlit dashboard
 
 
