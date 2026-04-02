@@ -31,6 +31,7 @@ They don't tell you *why* it's red, whether neighbours are at risk, what happens
 | 🧠 **WHY** is this country high risk? | SHAP explainability in biological language |
 
 
+Streamlit link : https://epiq-sentinel-gunikagaurav.streamlit.app/ 
 
 EpiIQ-Sentinel/
 
@@ -84,11 +85,11 @@ spatial.py       —
        
         ↓
         
-forecast.py      — ARIMA (endemic) / Prophet (acute) · 14-day forecast
+forecast.py      —  14-day forecast
         
         ↓
         
-risk.py          — 6-dim risk score · XGBoost · Isolation Forest · SHAP
+risk.py          — 
        
         ↓
         
