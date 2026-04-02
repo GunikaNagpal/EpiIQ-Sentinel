@@ -1,4 +1,4 @@
-# BioNexusAI - **EpiIQ-Sentinel**
+#  **EpiIQ-Sentinel**
 AI-Powered Spatio-Temporal Epidemic Intelligence System | CodeCure Hackathon | IIT BHU
 #  EpiIQ Sentinel - See the Outbreak before it sees you!!
 
