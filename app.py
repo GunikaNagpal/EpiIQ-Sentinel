@@ -40,14 +40,14 @@ st.subheader("AI-Powered Epidemic Intelligence System")
 # =========================
 # LOAD DATA (WITH LOADER)
 # =========================
-DATA_PATH = ROOT / "data" / "processed" / "risk.csv"
-
-if not DATA_PATH.exists():
-    st.error("Run pipeline first: python src/pipeline.py")
-    st.stop()
-
-with st.spinner("Loading epidemic intelligence..."):
-    df = pd.read_csv(DATA_PATH, parse_dates=["date"])
+try:
+    df = pd.read_csv("data/processed/risk.csv")
+except:
+    try:
+        df = pd.read_csv("risk.csv")
+    except:
+        st.error("Data not found. Please check upload.")
+        st.stop()
 
 # =========================
 # SIDEBAR CONTROLS
