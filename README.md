@@ -37,7 +37,29 @@ Unlike traditional dashboards that only display case counts or static maps, EpiI
 | 🧠 **WHY** is this country high risk? | SHAP explainability in biological language |
 
 
-Streamlit link : https://epiq-sentinel-gunikagaurav.streamlit.app/ 
+EpiIQ Sentinel acts as an early warning system by combining epidemiological modeling with data-driven insights.
+
+It processes time-series epidemic data to extract meaningful signals such as:
+
+Effective reproduction number (Rt)
+Growth rate and trend dynamics
+Case smoothing and noise reduction
+Case fatality ratio (CFR)
+
+These signals are integrated to generate a composite risk score, enabling identification of emerging outbreak patterns.
+
+Additionally, the system provides:
+
+📊 Trend visualization
+🔮 Short-term forecasting (14-day outlook)
+🌍 Global risk mapping
+🚨 Early warning alerts based on transmission dynamics
+🧠 Human-readable explanations of risk
+
+
+**Streamlit link** : https://epiq-sentinel-gunikagaurav.streamlit.app/ 
+
+
 
 EpiIQ-Sentinel/
 
